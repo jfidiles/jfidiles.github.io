@@ -1707,14 +1707,14 @@
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+			width: 64px;
+			height: 64px;
 			background: #f00;
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 64px;
+				height: 64px;
 			}
 
 		.image.fit {
@@ -2176,7 +2176,9 @@
 			#main > section.four {
 				background-color: #e8edec;
 			}
-
+            #main > div.one {
+                background-color: #ecf1f1;
+            }
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
