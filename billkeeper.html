@@ -33,8 +33,15 @@
                     <li><a href="index.html#about"
                             id="about-link"
                             class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-                    <li><a href="https://github.com/jfidiles" class="skel-layers-ignoreHref"><span class="icon fa-github">Github</span></a></li>
-                    <li><a href="https://www.linkedin.com/in/jfidiles" class="skel-layers-ignoreHref"><span class="icon fa-linkedin">LinkedIn</span></a></li>
+                    <li><a href="https://github.com/jfidiles"
+                            class="skel-layers-ignoreHref"
+                            target="_blank"><span class="icon fa-github">Github</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/jfidiles"
+                            class="skel-layers-ignoreHref"
+                            target="_blank"><span class="icon fa-linkedin">LinkedIn</span></a></li>
+                    <li><a href="https://drive.google.com/folderview?id=0BwNalqh4ntHmQk1qQ1c4Q1FSSHM&usp=sharing"
+                            class="skel-layers-ignoreHref"
+                            target="_blank"><span class="icon fa-file-text-o">CV</span></a></li>
                 </ul>
             </nav>
         </div>
@@ -67,18 +74,16 @@
                                 close as possible the REST conventions with respect to endpoints naming, stateless nature,
                                 and usage of proper HTTP methods: GET, POST, PUT and DELETE.
                             </p>
-                            <p>All the data coming from outside
-                                of the API is sanitised to prevent intentional or unintentional security breaches. The password
-                                is encrypted using bcrypt (Blowfish cypher) before it's stored in the database and the communication
-                                with clients is handled securely through JSON Web Tokens.
+                            <p>All the data coming from outside of the API is sanitised to prevent intentional or unintentional
+                                security breaches. The password is encrypted using bcrypt (Blowfish cypher) before it's stored
+                                in the database and the communication with clients is handled securely through JSON Web Tokens.
                             </p>
-                            <p>The API is expected to run over
-                                HTTPS to prevent any tampering with the data. In the android app, the username, the password
-                                and the token details are stored securely in SharedPreferences. The data is being retrieved
-                                to the application using a 'Rest template' object inside an 'AsyncTask' class so we can keep
-                                the UI thread responsive. Token is updated periodically from 30 to 30 minutes, and it doesn't
-                                affect the user's activity. RecyclerView is used to list all the bills, incomes and budgets
-                                with an entry and deleting animation.
+                            <p>The API is expected to run over HTTPS to prevent any tampering with the data. In the android
+                                app, the username, the password and the token details are stored securely in SharedPreferences.
+                                The data is being retrieved to the application using a 'Rest template' object inside an 'AsyncTask'
+                                class so we can keep the UI thread responsive. Token is updated periodically from 30 to 30
+                                minutes, and it doesn't affect the user's activity. RecyclerView is used to list all the
+                                bills, incomes and budgets with an entry and deleting animation.
                             </p>
                         </article>
                     </div>
@@ -179,7 +184,7 @@
                         <b><strong>Github link: </strong></b>
                     </div>
                     <div>
-                        <a href="https://github.com/jfidiles/billkeeper-app">BillKeeper</a>
+                        <a href="https://github.com/jfidiles/billkeeper-app" target="_blank">BillKeeper</a>
                     </div>
                     <br>
                     <div>
