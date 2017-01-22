@@ -28,7 +28,7 @@
 	}
 
 	ol, ul {
-		list-style: none;
+		list-style: disc;
 	}
 
 	blockquote, q {
@@ -1618,8 +1618,15 @@
 	}
 
 	header {
-		margin: 0 0 2em 0;
+		margin: 0.4em 0 1em 0;
 	}
+		header > h3 {
+			margin-bottom: 0 0 0.8em 0;
+		}
+
+		header > h5 {
+			margin-bottom: 0 0 0.8em 0;
+		}
 
 		header > p {
 			margin: 1em 0 0 0;
@@ -1678,6 +1685,7 @@
 
 	p, ul, ol, dl, table {
 		margin-bottom: 0.8em;
+		margin-left: 0.8em;
 	}
 
 	br.clear {
@@ -1849,7 +1857,8 @@
 
 	form :-ms-input-placeholder {
 		color: #555 !important;
-	}
+		margin-left: 3em;
+ol	}
 
 	form ::-moz-focus-inner {
 		border: 0;
