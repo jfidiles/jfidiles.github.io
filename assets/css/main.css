@@ -2049,6 +2049,10 @@ ol	}
         font-weight: bold;
     }
 
+    #nav ol, ul {
+		list-style: none;
+    }
+
 	#nav ul li a {
 		display: block;
 		padding: 0.25em 1.5em 0.25em 1.5em;
@@ -2148,7 +2152,7 @@ ol	}
 		#main > section {
 			margin: 0;
 			overflow: hidden;
-			margin: 2.5em 0;
+			margin: 0.5em 0;
 		}
 
 			#main > section.dark {
@@ -2493,7 +2497,7 @@ ol	}
 			}
 
 				#main > section {
-					padding: 2.5em 0;
+					padding: 1.5em 0;
 				}
 
 				#main section.cover {
@@ -2532,7 +2536,7 @@ ol	}
 		/* Main */
 
 			#main > section {
-				padding: 2.5em 0;
+				padding: 1.5em 0;
 			}
 
 			#main section.cover {
