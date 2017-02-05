@@ -1636,6 +1636,12 @@
 		margin: 2em 0 0 0;
 	}
 
+	video {
+		margin-top: 20px;
+		border: 5px solid #fff;
+		border-radius: 6px;
+	}
+
 	strong, b {
 		font-weight: 300;
 		color: #666;
@@ -2144,7 +2150,7 @@ ol	}
 				}
 
 /* Main */
-
+	
 	#main {
 		margin-left: 375px;
 	}
